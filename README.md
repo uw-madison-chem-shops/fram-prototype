@@ -14,8 +14,9 @@ PCB images generated with [tracespace](https://github.com/tracespace/tracespace)
 
 Bill of Materials
 
-| reference      | value         | manufacturer | part number | DigiKey | Newark |
-| :------------- | :------------ | :----------- | :---------- | :------ | :----- |
+| reference      | value         | manufacturer | part number          | vendors |
+| :------------- | :------------ | :----------- | :------------------- | :------ | 
+| U1             | FRAM 256K     | Fujitsu      | MB85RC256VFP-G-JNER2 | [DigiKey](https://www.digikey.com/en/products/detail/fujitsu-semiconductor/MB85RC256VPF-G-JNERE2/4022652) |
 
 ## Firmware
 
