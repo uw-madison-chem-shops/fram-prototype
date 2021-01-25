@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACSC02-41SURKWA-F01
+D DISPLAY 7 SEGMENTS common K, high red
+K display LED 7-segment
+$ENDCMP
+#
+#End Doc Library

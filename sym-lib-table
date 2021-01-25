@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ACSC02-41SURKWA-F01)(type Legacy)(uri ${KIPRJMOD}/ACSC02-41SURKWA-F01.lib)(options "")(descr ""))
+  (lib (name MAX6951)(type Legacy)(uri ${KIPRJMOD}/MAX6951.lib)(options "")(descr ""))
+)
