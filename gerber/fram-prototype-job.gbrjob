@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.8+dfsg1-1+b1"
+      "Version":     "5.1.9+dfsg1-1"
     },
-    "CreationDate":  "2021-01-25T17:02:13-06:00"
+    "CreationDate":  "2021-01-26T21:22:31-06:00"
   },
   "GeneralSpecs":
   {
@@ -29,9 +29,10 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.200,
-      "PadToTrack":  0.200,
-      "TrackToTrack":  0.200,
+      "PadToPad":  0.076,
+      "PadToTrack":  0.076,
+      "TrackToTrack":  0.076,
+      "MinLineWidth":  0.381,
       "TrackToRegion":  0.508,
       "RegionToRegion":  0.508
     }
