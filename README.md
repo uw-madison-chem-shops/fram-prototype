@@ -2,21 +2,32 @@
 
 Circuit demonstrating functionality of non-volatile, highly endurant ferroelectric RAM.
 
+## Repository
+
+This is an open source hardware project licensed under the CERN Open Hardware Licence Version 2 - Permissive.
+Please see the LICENSE file for the complete license.
+
+This repository is being mirrored to several version control systems in an attempt to ensure maximum avaliability.
+
+| name           | url                                                     |
+| -------------- | ------------------------------------------------------- | 
+| Chem (primary) | https://git.chem.wisc.edu/shop/fram-prototype           |
+| GitHub         | https://github.com/uw-madison-chem-shops/fram-prototype | 
+| GitLab         | https://gitlab.com/uw-madison-chem-shops/fram-prototype |
+
 ## PCB
 
 This PCB was designed using KiCAD version 5.
 Refer to `fram-prototype.pdf` for schematic.
 PCB images generated with [tracespace](https://github.com/tracespace/tracespace) follow.
 
-![top](./top.png "PCB top view")
+<img src="./fram-prototype-.top.svg" width="100%"/>
+<img src="./fram-prototype-.bottom.svg" width="100%"/>
 
-![bottom](./bottom.png "PCB bottom view")
+## Bill of Materials
 
-Bill of Materials
-
-| reference      | value         | manufacturer | part number          | vendors |
-| :------------- | :------------ | :----------- | :------------------- | :------ | 
-| U1             | FRAM 256K     | Fujitsu      | MB85RC256VFP-G-JNER2 | [DigiKey](https://www.digikey.com/en/products/detail/fujitsu-semiconductor/MB85RC256VPF-G-JNERE2/4022652) |
+| reference      | value         | manufacturer  | part number          | vendors |
+| :------------- | :------------ | :------------ | :------------------- | :------ |
 
 ## Firmware
 
@@ -24,7 +35,8 @@ TODO
 
 ## Changelog
 
-### 1.0.0
+### Revision A
 
 #### Added
 - initial design
+
