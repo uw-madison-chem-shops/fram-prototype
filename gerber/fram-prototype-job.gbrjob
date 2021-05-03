@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.9+dfsg1-1"
+      "Version":     "5.1.8+dfsg1-1+b1"
     },
-    "CreationDate":  "2021-01-26T21:22:31-06:00"
+    "CreationDate":  "2021-05-03T13:46:57-05:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "fram-prototype",
       "GUID": "6672616d-2d70-4726-9f74-6f747970652e",
-      "Revision": "1.0.0"
+      "Revision": "A"
     },
     "Size":
     {

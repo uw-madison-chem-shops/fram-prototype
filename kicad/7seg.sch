@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 2
 Title "FRAM Prototype"
-Date "2021-01-26"
-Rev "1.0.0"
+Date "2021-05-03"
+Rev "A"
 Comp "University of Wisconsin-Madison"
 Comment1 "Department of Chemistry"
 Comment2 "Instrument Shop"
@@ -280,17 +280,6 @@ F 3 "~" H 4150 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0116
-U 1 1 60147DC7
-P 4150 2650
-F 0 "#PWR0116" H 4150 2500 50  0001 C CNN
-F 1 "+5V" H 4165 2823 50  0000 C CNN
-F 2 "" H 4150 2650 50  0001 C CNN
-F 3 "" H 4150 2650 50  0001 C CNN
-	1    4150 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0124
 U 1 1 608D6F5A
 P 3750 1250
@@ -299,6 +288,17 @@ F 1 "+3.3V" H 3765 1423 50  0000 C CNN
 F 2 "" H 3750 1250 50  0001 C CNN
 F 3 "" H 3750 1250 50  0001 C CNN
 	1    3750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 60910A93
+P 4150 2650
+F 0 "#PWR0116" H 4150 2500 50  0001 C CNN
+F 1 "+3.3V" H 4165 2823 50  0000 C CNN
+F 2 "" H 4150 2650 50  0001 C CNN
+F 3 "" H 4150 2650 50  0001 C CNN
+	1    4150 2650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

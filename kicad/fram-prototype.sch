@@ -271,7 +271,7 @@ F 1 "4.7k" H 5968 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5940 3040 50  0001 C CNN
 F 3 "~" H 5900 3050 50  0001 C CNN
 	1    5900 3050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 NoConn ~ 2600 1700
 Wire Wire Line
@@ -288,11 +288,6 @@ Text GLabel 6500 2900 0    50   Output ~ 0
 MISO
 Text GLabel 2600 2200 2    50   Output ~ 0
 MOSI
-Connection ~ 5900 3200
-Wire Wire Line
-	5900 3200 6500 3200
-Wire Wire Line
-	2600 3200 5900 3200
 Wire Wire Line
 	2600 3500 6000 3500
 Wire Wire Line
@@ -508,7 +503,7 @@ U 1 1 60913B31
 P 2300 6850
 F 0 "D6" H 2250 6850 50  0000 L CNN
 F 1 "CDBHM260L-HF" H 2000 7200 50  0000 L CNN
-F 2 "footprints:SOP10P27X11-4N" H 2300 6850 50  0001 C CNN
+F 2 "footprints:SOIC245P670X290-4N" H 2300 6850 50  0001 C CNN
 F 3 "~" H 2300 6850 50  0001 C CNN
 	1    2300 6850
 	1    0    0    -1  
@@ -550,4 +545,9 @@ F 3 "~" H 1350 2250 50  0001 C CNN
 	1    1350 2250
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	2600 3200 5900 3200
+Connection ~ 5900 3200
+Wire Wire Line
+	5900 3200 6500 3200
 $EndSCHEMATC
