@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "FRAM Prototype"
-Date "2021-01-26"
-Rev "1.0.0"
+Date "2021-05-03"
+Rev "A"
 Comp "University of Wisconsin-Madison"
 Comment1 "Department of Chemistry"
 Comment2 "Instrument Shop"
